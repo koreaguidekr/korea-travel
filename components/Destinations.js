@@ -78,7 +78,7 @@ export default function Destinations() {
             <h3 className="font-display text-3xl md:text-4xl font-bold mb-4 leading-tight text-gray-900">
               Korea has the world's fastest average internet speed
             </h3>
-            <p className="font-body text-white/70 font-light leading-relaxed text-gray-700">
+            <p className="font-body text-gray-700 font-light leading-relaxed">
               Staying connected is never a problem. Purchase a T-money card or rent a pocket Wi-Fi at Incheon Airport and enjoy seamless connectivity from day one.
             </p>
           </div>
