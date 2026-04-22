@@ -9,9 +9,9 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-2">
               <span className="font-accent text-korea-gold text-xl">한국</span>
-              <span className="font-display text-xl font-semibold">Discover Korea</span>
+              <span className="font-display text-xl font-semibold text-gray-900">Discover Korea</span>
             </div>
-            <p className="font-body text-white/40 text-sm max-w-xs font-light">
+            <p className="font-body text-gray-700 text-white/40 text-sm max-w-xs font-light">
               Your guide to experiencing the beauty, culture, and cuisine of South Korea.
             </p>
           </div>
@@ -33,7 +33,7 @@ export default function Footer() {
                   e.preventDefault();
                   document.querySelector(link.href)?.scrollIntoView({ behavior: 'smooth' });
                 }}
-                className="font-body text-sm text-white/50 hover:text-white transition-colors duration-200"
+                className="font-body text-sm text-gray-600 hover:text-gray-900 transition-colors duration-200"
               >
                 {link.label}
               </a>
@@ -42,7 +42,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="font-body text-white/30 text-xs">
+          <p className="font-body text-gray-700 text-white/30 text-xs">
             © {year} Discover Korea. Built with ❤️ for travelers.
           </p>
           <p className="font-body text-white/30 text-xs">

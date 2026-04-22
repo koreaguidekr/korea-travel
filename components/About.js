@@ -83,8 +83,7 @@ export default function About() {
               <p className="font-body text-sm text-white/80 mt-1">UNESCO Heritage Sites & National Treasures</p>
             </div>
 
-            {/* Decorative element */}
-            <div className="absolute -top-4 -right-4 w-24 h-24 rounded-full border-2 border-korea-gold/40 animate-float" />
+            
           </div>
         </div>
 

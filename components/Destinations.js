@@ -75,10 +75,10 @@ export default function Destinations() {
         <div className="reveal mt-16 relative overflow-hidden rounded-3xl bg-charcoal text-white p-10 md:p-14">
           <div className="relative z-10 max-w-lg">
             <p className="font-accent text-korea-gold text-sm tracking-widest uppercase mb-3">Did you know?</p>
-            <h3 className="font-display text-3xl md:text-4xl font-bold mb-4 leading-tight">
+            <h3 className="font-display text-3xl md:text-4xl font-bold mb-4 leading-tight text-gray-900">
               Korea has the world's fastest average internet speed
             </h3>
-            <p className="font-body text-white/70 font-light leading-relaxed">
+            <p className="font-body text-white/70 font-light leading-relaxed text-gray-700">
               Staying connected is never a problem. Purchase a T-money card or rent a pocket Wi-Fi at Incheon Airport and enjoy seamless connectivity from day one.
             </p>
           </div>

@@ -50,13 +50,19 @@ export default function Hero() {
           className={`font-display text-6xl md:text-8xl lg:text-9xl font-bold leading-none mb-6 transition-all duration-700 ${loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
           style={{ transitionDelay: '0.25s' }}
         >
-          Discover
+<span className="block" style={{
+  background: 'linear-gradient(135deg, #FBBDC8 0%, #E03050 50%, #9B1530 100%)',
+  WebkitBackgroundClip: 'text',
+  WebkitTextFillColor: 'transparent',
+  backgroundClip: 'text',
+}}>Discover</span>
           <span className="block italic text-korea-gold font-normal">Korea</span>
         </h1>
 
         {/* Subtitle */}
         <p
-          className={`font-body text-lg md:text-xl text-white/80 max-w-lg mx-auto mb-10 font-light leading-relaxed transition-all duration-700 ${loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
+          className={`font-body text-lg md:text-xl text-gray-900 max-w-lg mx-auto mb-10 font-light leading-relaxed transition-all duration-700 ${loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
+
           style={{ transitionDelay: '0.4s' }}
         >
           Explore ancient culture, world-class cuisine, and breathtaking landscapes
@@ -65,7 +71,7 @@ export default function Hero() {
 
         {/* CTA Buttons */}
         <div
-          className={`flex flex-col sm:flex-row items-center justify-center gap-4 transition-all duration-700 ${loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
+          className={`flex flex-col sm:flex-row items-center justify-center gap-4 transition-all duration-700 mt-16 translate-x-10 ${loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
           style={{ transitionDelay: '0.55s' }}
         >
           <button
@@ -75,21 +81,35 @@ export default function Hero() {
             Explore Now
           </button>
           <button
-            onClick={() => handleScroll('#about')}
-            className="border border-white/50 text-white hover:bg-white/10 font-body font-medium px-8 py-4 rounded-full transition-all duration-300 hover:-translate-y-1 min-w-[180px] backdrop-blur-sm"
-          >
-            Learn More
-          </button>
+  onClick={() => handleScroll('#about')}
+  className="bg-korea-red hover:bg-red-700 text-white font-body font-semibold px-8 py-4 rounded-full transition-all duration-300 hover:shadow-xl hover:shadow-korea-red/40 hover:-translate-y-1 min-w-[180px] mx-auto block"
+>
+  Learn More
+</button>
         </div>
       </div>
 
+     
       {/* Scroll indicator */}
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-white/60">
-        <span className="text-xs font-body tracking-widest uppercase">Scroll</span>
-        <div className="w-px h-10 bg-white/30 relative overflow-hidden">
-          <div className="absolute top-0 left-0 w-full h-1/2 bg-white animate-bounce" />
-        </div>
-      </div>
+      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-3">
+  <style>{`
+    @keyframes sdb {
+      0% { transform: rotate(-45deg) translate(0, 0); opacity: 0; }
+      50% { opacity: 1; }
+      100% { transform: rotate(-45deg) translate(-20px, 20px); opacity: 0; }
+    }
+    .arrow-down {
+      width: 24px;
+      height: 24px;
+      border-left: 1px solid #C9A84C;
+      border-bottom: 1px solid #C9A84C;
+      transform: rotate(-45deg);
+      animation: sdb 1.5s infinite;
+    }
+  `}</style>
+  <div className="arrow-down" />
+  <span className="text-xs font-body tracking-widest uppercase mt-7" style={{ color: '#C9A84C', letterSpacing: '0.3em' }}>Scroll</span>
+</div>
     </section>
   );
 }

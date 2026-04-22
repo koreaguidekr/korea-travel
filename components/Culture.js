@@ -63,7 +63,7 @@ export default function Culture() {
           <span className="reveal text-korea-gold font-body text-sm font-medium tracking-[0.3em] uppercase">
             Korean Culture
           </span>
-          <h2 className="reveal font-display text-5xl md:text-6xl font-bold text-white mt-4 mb-5">
+          <h2 className="reveal font-display text-5xl md:text-6xl font-bold text-korea-red mt-4 mb-5">
             Feel the <em className="text-korea-gold font-normal">Korean Wave</em>
           </h2>
           <p className="reveal font-body text-white/50 text-lg max-w-xl mx-auto font-light leading-relaxed">
@@ -96,9 +96,9 @@ export default function Culture() {
 
               {/* Text */}
               <div className="bg-white/5 border border-white/10 backdrop-blur-sm p-10 md:p-12 flex flex-col justify-center">
-                <p className="font-body text-white/50 text-xs tracking-widest uppercase mb-3">{item.subtitle}</p>
-                <h3 className="font-display text-4xl font-bold text-white mb-4">{item.title}</h3>
-                <p className="font-body text-white/60 font-light leading-relaxed">{item.description}</p>
+                <p className="font-body text-gray/50 text-xs tracking-widest uppercase mb-3">{item.subtitle}</p>
+                <h3 className="font-display text-4xl font-bold text-gray mb-4">{item.title}</h3>
+                <p className="font-body text-gray/60 font-light leading-relaxed">{item.description}</p>
                 <div className="mt-6 h-0.5 w-12 bg-korea-red rounded-full" />
               </div>
             </article>

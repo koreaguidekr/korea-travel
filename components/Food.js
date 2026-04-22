@@ -5,7 +5,7 @@ const FOODS = [
     name: 'Korean BBQ',
     korean: '고기구이',
     description: 'Grill marinated meats tableside — bulgogi (beef) and samgyeopsal (pork belly) are the classics. Always surrounded by banchan (side dishes).',
-    image: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=600&q=80&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1708388064672-6536507fdf6e?w=600&q=80&auto=format&fit=crop',
     emoji: '🥩',
   },
   {
@@ -19,7 +19,7 @@ const FOODS = [
     name: 'Kimchi',
     korean: '김치',
     description: "Korea's iconic fermented cabbage — spicy, tangy, and packed with probiotics. It's served at every meal and comes in over 200 varieties.",
-    image: 'https://images.unsplash.com/photo-1583224994559-1e75fa974e02?w=600&q=80&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1708388064278-707e85eaddc0?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     emoji: '🌶️',
   },
   {
@@ -33,14 +33,14 @@ const FOODS = [
     name: 'Japchae',
     korean: '잡채',
     description: 'Stir-fried glass noodles tossed with colorful vegetables, beef, and a savory-sweet soy sauce. A festive dish served at celebrations.',
-    image: 'https://images.unsplash.com/photo-1580651315530-69c8e0026377?w=600&q=80&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1564834724105-918b73d1b9e0?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     emoji: '🍜',
   },
   {
     name: 'Samgyetang',
     korean: '삼계탕',
     description: 'A nourishing whole-chicken soup stuffed with ginseng, garlic, and rice. Traditionally eaten in summer as a health remedy.',
-    image: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&q=80&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1562749606-0a9eb5a8a0f3?q=80&w=1072&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     emoji: '🍲',
   },
 ];
