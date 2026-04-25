@@ -12,7 +12,7 @@ const FOODS = [
     name: 'Bibimbap',
     korean: '비빔밥',
     description: 'A vibrant bowl of warm rice topped with seasoned vegetables, a fried egg, gochujang sauce, and sesame oil. Mix everything together and enjoy.',
-    image: 'https://images.unsplash.com/photo-1553163147-622ab57be1c7?w=600&q=80&auto=format&fit=crop',
+    image: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA0MjRfMzMg%2FMDAxNzQ1NDYwMjQ0NzQ2.v-1FtKP_SPFlss6KgghJPjLM2znaOfq-nbkKP3SEbNAg.Fbxf7DS7x5V4PhrwCCR4WxLf1sL5dQ-gynAZAhw6j0Qg.JPEG%2FIMG_1114.JPG&type=sc960_832',
     emoji: '🍚',
   },
   {
@@ -26,7 +26,7 @@ const FOODS = [
     name: 'Tteokbokki',
     korean: '떡볶이',
     description: "Chewy rice cakes cooked in a fiery sweet-spicy sauce. The ultimate Korean street food — found on every corner and irresistibly addictive.",
-    image: 'https://images.unsplash.com/photo-1635363638580-c2809d049eee?w=600&q=80&auto=format&fit=crop',
+    image: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fimage.nmv.naver.net%2Fblog_2025_04_06_2894%2FR6DbIVTUYb_03.jpg&type=sc960_832',
     emoji: '🍢',
   },
   {

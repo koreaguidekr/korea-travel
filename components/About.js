@@ -3,7 +3,7 @@ import { useEffect, useRef } from 'react';
 const STATS = [
   { value: '51M', label: 'Population' },
   { value: '5,000+', label: 'Years of History' },
-  { value: '#1', label: 'Fastest Internet' },
+  { value: '12°C', label: 'spring temperature' },
   { value: '17M+', label: 'Visitors / Year' },
 ];
 

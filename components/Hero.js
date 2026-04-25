@@ -65,8 +65,7 @@ export default function Hero() {
 
           style={{ transitionDelay: '0.4s' }}
         >
-          Explore ancient culture, world-class cuisine, and breathtaking landscapes
-          in the Land of the Morning Calm.
+          Explore ancient culture, world-class cuisine, and breathtaking landscapes in a land where tradition meets tomorrow.
         </p>
 
         {/* CTA Buttons */}

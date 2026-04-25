@@ -24,7 +24,7 @@ const DESTINATIONS = [
     description:
       "A UNESCO-designated volcanic island of extraordinary beauty. Hike the iconic Hallasan crater, discover lava-formed caves, chase waterfalls like Cheonjiyeon, and unwind on black-sand beaches under clear skies.",
     image:
-      'https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=800&q=80&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1562680802-9cf8b15f419d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
 ];
 
@@ -76,10 +76,10 @@ export default function Destinations() {
           <div className="relative z-10 max-w-lg">
             <p className="font-accent text-korea-gold text-sm tracking-widest uppercase mb-3">Did you know?</p>
             <h3 className="font-display text-3xl md:text-4xl font-bold mb-4 leading-tight text-gray-900">
-              Korea has the world's fastest average internet speed
+              Korea is best visited in spring and autumn
             </h3>
             <p className="font-body text-gray-700 font-light leading-relaxed">
-              Staying connected is never a problem. Purchase a T-money card or rent a pocket Wi-Fi at Incheon Airport and enjoy seamless connectivity from day one.
+              In particular, April to May and September to November are the most ideal seasons for travel. During these periods, the weather is mild and pleasant, making it ideal for travel, and many festivals are also held.
             </p>
           </div>
           {/* Decorative */}
