@@ -16,7 +16,7 @@ const DESTINATIONS = [
     description:
       "Korea's second city delivers sun, sea, and spectacular seafood. Walk the rainbow-painted Gamcheon Culture Village, soak up the sun at Haeundae Beach, and experience the freshest sashimi at Jagalchi Fish Market.",
     image:
-      'https://images.unsplash.com/photo-1578637387939-43c525550085?w=800&q=80&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1672671187899-a10f547341f1?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
     city: 'Jeju',
